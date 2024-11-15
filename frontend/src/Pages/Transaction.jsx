@@ -1,5 +1,6 @@
 import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import ListTransactions from '../Components/ListTransactions';
 const Transaction = () => {
   return (
     <div>
