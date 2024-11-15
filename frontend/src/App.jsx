@@ -1,5 +1,5 @@
 import { Route ,Routes } from "react-router-dom";
-import Transition from "./Components/Transition";
+import Transaction from "./Components/Transaction";
 import Navbar from "./Components/Navbar";
 import DashBoard from "./Pages/DashBoard";
 import HomePage from "./Pages/HomePage";
@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage/>} />
         <Route path="/dashboard" element={<DashBoard/>} />
-        <Route path="/transition" element={<Transition/>} />
+        <Route path="/Transaction" element={<Transaction/>} />
       </Routes>
     </>
   );
